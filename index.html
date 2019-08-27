@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 	<head>
  		<title>Ethan Long Website</title>
@@ -10,39 +10,22 @@
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="script.js"></script>
 	</head>
-	
-	<style>
-		/* Style the links inside the pill navigation menu */
-.pill-nav a {
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  font-size: 17px;
-  border-radius: 5px;
-}
-
-/* Change the color of links on mouse-over */
-.pill-nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.pill-nav a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-		
-		
-		
-	</style>
-	<body>		
-<div class="pill-nav">             
-      <a class="active" href="#About">About Me</a>
-      <a href="#Résumé">Resume</a>
-      <a href="#Social">Social Media</a>
+			<body>
+		<style>
+</style> 
+<nav class="navbar navbar-custom">
+ 
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">Ethan Long</a>
+    </div>
+    
+    <ul class="nav navbar-nav navbar-right">
+         <ul class="nav nav-tabs">
+             
+      <li class="active"><a href="#About">About Me</a></li>
+      <li><a href="#Résumé">Resume</a></li>
+      <li><a href="#Social">Social Media</a></li>
  <li class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#Projects">Passion Projects
     <span class="caret"></span></a>
@@ -55,8 +38,10 @@
        </ul>
       </li>
     </ul>
-</div>
-
+</ul>
+    </div>
+      </nav>
+ 
  <div class="tab-content">
     <div id="About" class="tab-pane fade in active">
       <h3>About Me</h3>
@@ -85,29 +70,29 @@
     <div id="Résumé" class="tab-pane fade">
         <h3><a href="5262019.docx">Resume</a> </h3>
      </div>
-
+ 
     <div id="Project1" class="tab-pane fade">
       <h3>CyberPatriot</h3>
         <h3><a href="https://www.uscyberpatriot.org/Pages/About/What-is-CyberPatriot.aspx">What is CyberPatriot?</a></h3>
         <h5> Placed 1st in State of Arkansas for 2018-2019  </h5>
         <p></p>
      </div>
-
+ 
     <div id="Project2" class="tab-pane fade">
       <h3>Master The MainFrame</h3>
         <h3><a href="https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe">What is Master The MainFrame?</a></h3>
         <h5>Finished Part 1</h5>
     </div>
-
+ 
     <div id="Project3" class="tab-pane fade">
       <h3>Cyber Awareness For Seniors</h3>
     </div>
-
+ 
     <div id="Project4" class="tab-pane fade">
       <h3>Create Own Website</h3>
         <h5>Well, here we are.</h5>
     </div>
-
+ 
     <div id="Project5" class="tab-pane fade">
       <h3>Certifications+</h3>
 	    <h1>Certification in Comptia IT Fundamentals</h1>
@@ -120,18 +105,19 @@
          <li>Twitter:<a href="https://twitter.com/EthanLo90056811">Twitter</a> </li>
          </ul>
      </div>
-
+ 
   </div>
     
-
-	<script>
+                
+            
+<script>
 $(document).ready(function(){
-    $(".pill-nav a").click(function(){
+    $(".nav-tabs a").click(function(){
         $(this).tab('show');
     });
 });
 </script>
 	 
 			</body>
-
+ 
 </html>
